@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkpet_project_react=self.webpackChunkpet_project_react||[]).push([[276],{276:(e,c,t)=>{t.r(c),t.d(c,{default:()=>s});var r=t(184);const s=()=>(0,r.jsx)("div",{children:(0,r.jsx)("p",{children:"Projects"})})}}]);
+//# sourceMappingURL=276.7f8e9271.chunk.js.map

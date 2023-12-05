@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkpet_project_react=self.webpackChunkpet_project_react||[]).push([[516],{516:(e,i,t)=>{t.r(i),t.d(i,{default:()=>r});var s=t(184);const r=()=>(0,s.jsx)("div",{children:(0,s.jsx)("p",{children:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis soluta minus incidunt voluptates provident dolorem pariatur cupiditate ab, velit, officiis, qui asperiores non fugit voluptatem aliquam unde suscipit omnis nostrum."})})}}]);
+//# sourceMappingURL=516.3b5879ff.chunk.js.map
