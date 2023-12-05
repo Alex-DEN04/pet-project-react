@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from 'react-router-dom'
+import { lazy } from 'react'
+import { SharedLayout } from './components/SharedLayout/SharedLayout'
+
+const HomePage = lazy(() => import('./pages/Home/HomePage'));
+const AboutPage = lazy(() => import('./pages/About/AboutPage'));
+const ProjectsPage = lazy(() => import('./pages/Projects/ProjectsPage'));
+const TeamPage = lazy(() => import('./pages/Team/TeamPage'));
+const NotFoundPage = lazy(() => import('./pages/NotFound/NotFoundPage'));
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Routes>
+      <Route path="/" element={<SharedLayout />}>
+        <Route index element={<HomePage />}></Route>
+        <Route path="about" element={<AboutPage />}></Route>
+        <Route path="projects" element={<ProjectsPage />}></Route>
+        <Route path="team" element={<TeamPage />}></Route>
+        <Route path="*" element={<NotFoundPage />}></Route>
+      </Route>
+    </Routes>
+  )
 }
 
-export default App;
+export default App
