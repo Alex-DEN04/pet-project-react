@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/pet-project-react/static/js/main.7a55c19b.js",
+    "main.js": "/pet-project-react/static/js/main.b8bbb72b.js",
     "static/js/820.f8ef8add.chunk.js": "/pet-project-react/static/js/820.f8ef8add.chunk.js",
     "static/js/516.3b5879ff.chunk.js": "/pet-project-react/static/js/516.3b5879ff.chunk.js",
     "static/js/276.7f8e9271.chunk.js": "/pet-project-react/static/js/276.7f8e9271.chunk.js",
     "static/js/740.83dc77ab.chunk.js": "/pet-project-react/static/js/740.83dc77ab.chunk.js",
     "static/js/224.b4062088.chunk.js": "/pet-project-react/static/js/224.b4062088.chunk.js",
     "index.html": "/pet-project-react/index.html",
-    "main.7a55c19b.js.map": "/pet-project-react/static/js/main.7a55c19b.js.map",
+    "main.b8bbb72b.js.map": "/pet-project-react/static/js/main.b8bbb72b.js.map",
     "820.f8ef8add.chunk.js.map": "/pet-project-react/static/js/820.f8ef8add.chunk.js.map",
     "516.3b5879ff.chunk.js.map": "/pet-project-react/static/js/516.3b5879ff.chunk.js.map",
     "276.7f8e9271.chunk.js.map": "/pet-project-react/static/js/276.7f8e9271.chunk.js.map",
@@ -15,6 +15,6 @@
     "224.b4062088.chunk.js.map": "/pet-project-react/static/js/224.b4062088.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.7a55c19b.js"
+    "static/js/main.b8bbb72b.js"
   ]
 }
