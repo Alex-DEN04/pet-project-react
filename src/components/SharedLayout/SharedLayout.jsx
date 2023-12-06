@@ -1,11 +1,13 @@
-import { Suspense } from 'react'
-import { Outlet } from 'react-router-dom'
+import { Suspense } from 'react';
+import { Outlet } from 'react-router-dom';
+import { Global } from '@emotion/react';
 
-import { AppBar } from '../AppBar/AppBar'
-import { Container } from './SharedLayoutStyled'
-import { Button } from '../Button/Button'
+import { AppBar } from '../AppBar/AppBar';
+import { Container } from './SharedLayoutStyled';
+import { Button } from '../Button/Button';
 
 export const SharedLayout = () => {
+  console.log(Global)
   return (
     <div>
       <AppBar />
